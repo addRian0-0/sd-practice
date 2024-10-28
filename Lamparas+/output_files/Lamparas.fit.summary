@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue Oct 15 20:14:12 2024
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Lamparas
+Top-level Entity Name : Lamparas
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 11 / 240 ( 5 % )
+Total pins : 12 / 80 ( 15 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

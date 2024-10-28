@@ -1,0 +1,28 @@
+--Circuitos combinatorios / Lampara 1 y Lampara 2
+library IEEE;
+
+use ieee.std_logic_1164.all;
+
+entity diego is --Nombre del proyecto
+	
+
+	port
+	(
+		-- Input ports / entradas
+		A,B,C,D : in STD_LOGIC;
+	
+	
+		-- Output ports / salidas. (El ultimo renglon no lleva punto y coma)
+		L1,L2 : out STD_LOGIC
+	
+	);
+	
+end diego;
+
+architecture Ecuaciones of diego is --Forma en la que se definira el comportamiento del proyecto
+
+begin
+L1 <= A XOR B XOR C XOR D;
+L2 <= (NOT A AND NOT B AND(C XOR D)) OR (NOT C AND NOT D AND(A XOR B)) OR (A AND B AND C AND D);
+
+end Ecuaciones;
