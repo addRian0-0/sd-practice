@@ -1,0 +1,15 @@
+# Ignorar archivos temporales de Quartus
+*.qsf
+*.qpf
+*.sdc
+*.synthesis
+
+# Ignorar archivos de simulación
+*.vcd
+*.ghw
+
+# Ignorar carpetas de compilación
+db/
+incremental_db/
+simulation/
+output/
