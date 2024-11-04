@@ -1,0 +1,12 @@
+-- SUMADOR, RESTADOR Y COMPARADOR POR METODO DE INSTANCIACION
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity SumadorRestadorComparador is 
+end SumadorRestadorComparador;
+
+architecture Ecuaciones of SumadorRestadorComparador is
+
+begin
+
+end Ecuaciones;

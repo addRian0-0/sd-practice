@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity RestadorCompleto is
+
+	port(
+		
+	);
+
+end RestadorCompleto;
+
+architecture Ecuaciones of RestadorCompleto is
+
+	begin
+	
+end Ecuaciones; 

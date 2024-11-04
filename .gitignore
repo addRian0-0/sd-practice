@@ -1,5 +1,5 @@
-# Ignorar archivos temporales de Quartus
-*.qsf
+# Ignorar archivos temporales de Quartus, excepto el archivo .qsf para asignaciones de pines
+!*.qsf
 *.qpf
 *.sdc
 *.synthesis
@@ -13,3 +13,4 @@ db/
 incremental_db/
 simulation/
 output_files/
+
