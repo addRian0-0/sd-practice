@@ -19,14 +19,14 @@
 #
 # Quartus Prime
 # Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-# Date created = 20:33:06  November 03, 2024
+# Date created = 19:10:11  November 05, 2024
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		Practica2_assignment_defaults.qdf
+#		ComparadorBasicoS_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -39,9 +39,9 @@
 
 set_global_assignment -name FAMILY "MAX II"
 set_global_assignment -name DEVICE EPM240T100C5
-set_global_assignment -name TOP_LEVEL_ENTITY Practica2
+set_global_assignment -name TOP_LEVEL_ENTITY ComparadorBasicoS
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:33:06  NOVEMBER 03, 2024"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:10:11  NOVEMBER 05, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
@@ -56,8 +56,12 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name VHDL_FILE Practica2.vhd
-set_location_assignment PIN_49 -to swi0
-set_location_assignment PIN_48 -to swi1
-set_location_assignment PIN_51 -to swi2
-set_location_assignment PIN_50 -to swi3
+set_global_assignment -name VHDL_FILE ComparadorBasicoS.vhd
+set_location_assignment PIN_49 -to E
+set_location_assignment PIN_48 -to D
+set_location_assignment PIN_51 -to C
+set_location_assignment PIN_50 -to B
+set_location_assignment PIN_53 -to A
+set_location_assignment PIN_69 -to Ma
+set_location_assignment PIN_71 -to Me
+set_location_assignment PIN_73 -to Ig
