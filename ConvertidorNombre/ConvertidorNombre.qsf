@@ -19,14 +19,14 @@
 #
 # Quartus Prime
 # Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-# Date created = 20:33:06  November 03, 2024
+# Date created = 20:36:18  November 10, 2024
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		Practica2_assignment_defaults.qdf
+#		ConvertidorNombre_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -39,9 +39,9 @@
 
 set_global_assignment -name FAMILY "MAX II"
 set_global_assignment -name DEVICE EPM240T100C5
-set_global_assignment -name TOP_LEVEL_ENTITY Practica2
+set_global_assignment -name TOP_LEVEL_ENTITY ConvertidorNombre
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:33:06  NOVEMBER 03, 2024"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:36:18  NOVEMBER 10, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
@@ -56,13 +56,25 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name VHDL_FILE Practica2.vhd
-set_location_assignment PIN_29 -to A[1]
-set_location_assignment PIN_28 -to A[0]
-set_location_assignment PIN_51 -to Y[4]
-set_location_assignment PIN_50 -to Y[3]
-set_location_assignment PIN_53 -to Y[2]
-set_location_assignment PIN_27 -to A[3]
-set_location_assignment PIN_26 -to A[2]
-set_location_assignment PIN_48 -to Y[0]
-set_location_assignment PIN_49 -to Y[1]
+set_global_assignment -name VHDL_FILE ConvertidorNombre.vhd
+set_location_assignment PIN_99 -to A1
+set_location_assignment PIN_97 -to B2
+set_location_assignment PIN_95 -to C3
+set_location_assignment PIN_91 -to D4
+set_location_assignment PIN_51 -to salida[15]
+set_location_assignment PIN_49 -to salida[14]
+set_location_assignment PIN_47 -to salida[13]
+set_location_assignment PIN_43 -to salida[12]
+set_location_assignment PIN_41 -to salida[11]
+set_location_assignment PIN_39 -to salida[10]
+set_location_assignment PIN_37 -to salida[9]
+set_location_assignment PIN_35 -to salida[8]
+set_location_assignment PIN_52 -to salida[7]
+set_location_assignment PIN_50 -to salida[6]
+set_location_assignment PIN_48 -to salida[5]
+set_location_assignment PIN_44 -to salida[4]
+set_location_assignment PIN_29 -to salida[3]
+set_location_assignment PIN_27 -to salida[2]
+set_location_assignment PIN_21 -to salida[1]
+set_location_assignment PIN_20 -to salida[0]
+set_location_assignment PIN_53 -to salida[16]
